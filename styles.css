@@ -78,8 +78,10 @@ input {
   height: 20px;
   width: 250px;
 }
-input:focus {
-  border: solid red;
+textarea:focus, input:focus{
+  outline: none;
+  outline: solid lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #left {
@@ -147,4 +149,5 @@ input:focus {
 #submission {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
