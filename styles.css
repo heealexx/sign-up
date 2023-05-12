@@ -151,3 +151,13 @@ textarea:focus, input:focus{
   flex-direction: column;
   gap: 5px;
 }
+
+#button-create-acc {
+  background-color: #596D48;
+}
+
+#button-login {
+  border: none;
+  background: none;
+  color: #596D48;
+}
